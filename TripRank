@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - TripRank</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #111;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: #222;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        p, ul {
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TripRank Privacy Policy</h1>
+        <div class="date">Last Updated: March 25, 2026</div>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to TripRank. This Privacy Policy explains how TripRank ("we", "us", or "our") collects, uses, and protects your information when you use our mobile application.</p>
+
+        <h2>2. Information We Collect</h2>
+        <ul>
+            <li><strong>Location Data (Background & Foreground):</strong> To provide our core service of automatically tracking driving trips, calculating driving scores, and generating route analytics, TripRank requires access to your device's precise location (GPS). <strong>TripRank collects and processes this location data even when the app is closed or not in use.</strong></li>
+            <li><strong>Account Information:</strong> If you link an account, we collect your email address and display name to sync your profile across devices.</li>
+            <li><strong>Motion & Sensor Data:</strong> We use device sensors (like the accelerometer) to detect driving events such as hard braking or rapid acceleration to calculate your driver score.</li>
+            <li><strong>Usage Data:</strong> We use Google Firebase to collect basic app usage and crash reports to improve the app's stability.</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>We use your data solely to:</p>
+        <ul>
+            <li>Automatically start and stop trip recordings.</li>
+            <li>Accurately map your routes and measure distance/speed.</li>
+            <li>Generate personalized driving scores and leaderboards.</li>
+            <li>Sync your data securely to your account.</li>
+        </ul>
+
+        <h2>4. Data Sharing and Security</h2>
+        <p>TripRank does not sell your personal data or location history to third-party data brokers or advertisers. Your data is stored securely using Google Firebase infrastructure. We only share data with third-party service providers (like Google Firebase) to the extent necessary to operate the app's backend services.</p>
+
+        <h2>5. Data Retention and Deletion</h2>
+        <p>We keep your trip history and score data as long as your account is active. You can completely delete your account and all associated location/trip data at any time by contacting us or using an in-app deletion feature (if available).</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or concerns about this policy or your data, please contact us at: support@triprankapp.com</p>
+    </div>
+</body>
+</html>
